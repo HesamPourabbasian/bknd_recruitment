@@ -1,0 +1,56 @@
+# created by virtualenv automatically
+# Python compiled files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Poetry virtual environment
+.env/
+venv/
+.venv/
+
+# Poetry lock file (optional, include if you want to track it)
+# poetry.lock  # Uncomment to ignore, but typically tracked in repo
+
+# Build and distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# Cache and temporary files
+*.cache
+.pytest_cache/
+.coverage
+coverage.xml
+*.cover
+*.log
+*.bak
+*.swp
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS system files
+.DS_Store
+
+# Sensitive or local configuration files
+*.env
+.env.local
+*.secret
+*.key
+
+# Jupyter notebooks (if used for experimentation)
+*.ipynb
+*.ipynb_checkpoints/
+
+# Test and documentation build artifacts
+docs/_build/
+htmlcov/
+
+# Project-specific temporary or output files
+*.out
+*.tmp
